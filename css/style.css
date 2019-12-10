@@ -4,8 +4,13 @@
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
 }
-.custom-navbar,.book-content{
-    background-color:#f6871e !important ;
+.book-content{
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac85 0%, #64d5ee6b 74%);
+}
+.custom-navbar{
+    background-color: #28454a;
+    background-image: linear-gradient(315deg, #5e849ab8 0%, #323f5d 74%);
 }
 .custom-navbar .custom-nav-bar .nav-item .nav-link {
     color: white;
@@ -14,7 +19,7 @@
     letter-spacing: 1px;
 }
 .custom-navbar .custom-nav-bar .nav-item  a:hover{
-    color: #6a2e05 !important;
+    color: rgba(230, 230, 230, 0.747) !important;
 }
 .custom-logo-bar{
     color: white !important;
@@ -27,8 +32,9 @@
     border-radius: 2.25rem;
 }
 .book-content-single h1{
-    color: #384a50ab;;
+    color: #383b3cd6;;;
     margin-bottom: 5%;
+    
     
 }
 .book-content-single p{
@@ -168,7 +174,7 @@
     border: none;
 }
 .video-icon{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 /* ------check video section closed------ */
@@ -358,20 +364,19 @@
 }
 /* ----closed contact------ */
 .page-footer{
-    padding-top: 1%;
-    background: linear-gradient(45deg, #ad538996, #555471); 
+    padding-top: 1%; 
     overflow: hidden;
-}
-.page-section{
-    
+    background-color: #f39f86;
+    background-color: #fdb813;
+    background-image: linear-gradient(315deg, #544624b0 0%, #788cb69c 74%);
 }
 .s-icons{
     padding: 1px 8px;
-    border: 2px solid #f6871e4a; 
+    border: 2px solid #e8e8e8cc;; 
     border-radius: 5px;
 }
 .f-color{
-    color: #f6871e4a;
+    color: #e8e8e8cc;;
 }
 .b-fb{
     padding: 1px 10px;
